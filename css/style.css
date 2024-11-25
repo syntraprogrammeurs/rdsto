@@ -1,0 +1,151 @@
+/*MOBILE FIRST*/
+/*Fonts*/
+
+
+.josefin-sans {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.heebo {
+    font-family: "Heebo", sans-serif;
+    font-size: 16px;
+}
+.fs-8{
+    font-size:24px;
+}
+.fs-7{
+    font-size:75px;
+}
+.my-6{
+    margin:40px 0px;
+}
+
+
+/*!* Algemene styling voor de navbar *!*/
+/* Transparante navbar */
+.navbar {
+    background: rgba(255, 255, 255, 0); /* Witte achtergrond met transparantie */
+    backdrop-filter: blur(10px); /* Blur effect voor achtergrond */
+    position: fixed; /* Navbar blijft bovenaan */
+    top: 0;
+    width: 100%;
+    z-index: 5; /* Zorgt ervoor dat de navbar boven de inhoud staat */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3); /* Optionele rand onderaan */
+}
+/* Verberg het standaard pijltje van Bootstrap dropdowns */
+.dropdown-toggle::after {
+    content: none; /* Verwijdert het standaard pijltje */
+}
+/* Pas het hover-effect aan voor dropdown-items */
+.dropdown-menu .dropdown-item:hover {
+    background-color: #FFD1A9; /* Licht oranje achtergrondkleur */
+    color: #000; /* Optioneel: Zwarte tekst voor contrast */
+}
+/* Navbar met oranje achtergrond bij scrollen */
+.navbar.scrolled {
+    background: #FFA07A; /* Oranje kleur */
+    backdrop-filter: none; /* Verwijder blur effect */
+}
+/* Verwijder de zwarte focus-border van de hamburgerknop */
+.navbar-toggler:focus {
+    outline: none; /* Verwijdert de standaard focusstijl */
+    box-shadow: none; /* Verwijdert eventuele schaduwrand */
+}
+/* Styling voor de toggle-icon (optioneel) */
+.toggle-icon {
+    transition: transform 0.3s ease; /* Voegt een zachte transitie toe */
+}
+
+/*Try free button*/
+.btn-custom {
+    border: 1px solid transparent; /* Geen zichtbare rand standaard */
+    padding: 10px 20px; /* Nette padding */
+    transition: background-color 1s ease, border-color 1s ease; /* Zorgt voor vloeiende overgang */
+}
+
+/* Hover-effect */
+.btn-custom:hover {
+    background-color: transparent !important; /* Maak de achtergrond transparant */
+    color: white; /* Verander tekstkleur naar wit */
+    border-color: white; /* Witte rand */
+}
+
+
+/* Hero-section rekening houden met de hoogte van de navbar */
+#hero-section {
+    padding-top: 70px; /* Houd rekening met de hoogte van de navbar */
+    background-image: url('../images/banner-bg.png'); /* Voeg de achtergrond toe */
+    background-repeat: no-repeat;
+    background-size: cover; /* Zorg dat de afbeelding de sectie volledig vult */
+    background-position: center bottom; /* Positioneer de afbeelding mooi onderaan */
+    min-height: 100vh; /* Zorg dat de sectie minstens de volledige hoogte van het scherm vult */
+    position: relative;
+}
+
+/*SECTION APP FEATURES*/
+.gradient {
+    background: linear-gradient(135deg, #FF6347, #FFA07A); /* Gradient van donkeroranje naar lichtoranje */
+    -webkit-background-clip: text; /* Clipt de achtergrond naar de tekst */
+    -webkit-text-fill-color: transparent; /* Maakt de tekst transparant */
+    background-clip: text; /* Voor niet-Webkit browsers */
+    text-fill-color: transparent; /* Voor niet-Webkit browsers */
+}
+
+/*SECTION GALLERY*/
+.custom-tabs .nav-link {
+    color: #666;
+    font-weight: 500;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+    border: none;
+    background: transparent;
+    clip-path: none;
+}
+
+.custom-tabs .nav-link:hover {
+    color: #333;
+}
+
+.custom-tabs .nav-link.active {
+    color: #fff;
+    background: linear-gradient(45deg, #ffaa6a, #fb6f62);
+    font-weight: bold;
+    clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);
+    border: none;
+}
+
+.custom-tabs .nav-link:not(.active) {
+    margin-right: 15px;
+}
+
+
+/* Modal search */
+.modal-content {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+.modal-body input {
+    font-size: 1.2rem;
+    padding: 10px;
+}
+/* Verberg de modal-header rand */
+.modal-header {
+    border-bottom: none;
+}
+
+
+/* Vanaf lg-schermen (Bootstrap-breakpoint)*/
+@media (min-width: 992px) {
+    .navbar {
+        border-bottom: none; /* Verwijdert de border op grotere schermen */
+    }
+    .my-6{
+        margin: 120px 0px;
+    }
+    .padding-end{
+        padding-right: 100px;
+    }
+}
