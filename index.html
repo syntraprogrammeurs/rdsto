@@ -2,40 +2,45 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport"
-	      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+	      name="viewport">
+	<meta content="ie=edge" http-equiv="X-UA-Compatible">
 	<title>Rdsto</title>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
-	<link rel="stylesheet" href="./css/style.css">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="./font/flaticon.css">
+	<link href="./css/style.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com" rel="preconnect">
+	<link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+	<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+	      rel="stylesheet">
+	<link href="./font/flaticon.css" rel="stylesheet">
 	
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="./css/lightbox.css">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="./css/lightbox.css" rel="stylesheet">
 
 </head>
 <body>
 <nav class="navbar navbar-expand-lg">
 	<div class="container">
 		<a class="navbar-brand" href="#">
-			<img src="./images/logo.png" alt="Logo">
+			<img alt="Logo" src="./images/logo.png">
 		</a>
-		<button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		<button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"
+		        class="navbar-toggler border-0"
+		        data-bs-target="#navbarNav" data-bs-toggle="collapse" type="button">
 			<i class="bi bi-list text-white toggle-icon"></i>
 		</button>
 		
 		<div class="collapse navbar-collapse" id="navbarNav">
 			<ul class="navbar-nav ms-auto">
 				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle text-white text-uppercase d-flex align-items-center" href="#" id="homeDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+					<a aria-expanded="false"
+					   class="nav-link dropdown-toggle text-white text-uppercase d-flex align-items-center"
+					   data-bs-toggle="dropdown" href="#" id="homeDropdown" role="button">
 						Home
 						<i class="bi bi-plus ms-2 icon-pages"></i> <!-- Plus-icoon -->
 					</a>
-					<ul class="dropdown-menu rounded-0 rounded-bottom" aria-labelledby="homeDropdown">
+					<ul aria-labelledby="homeDropdown" class="dropdown-menu rounded-0 rounded-bottom">
 						<li><a class="dropdown-item text-uppercase" href="#">Home 1</a></li>
 						<li><a class="dropdown-item text-uppercase" href="#">Home 2</a></li>
 					</ul>
@@ -46,11 +51,13 @@
 					<a class="nav-link text-white text-uppercase" href="#">About</a>
 				</li>
 				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle text-white text-uppercase d-flex align-items-center" href="#" id="featuresDropDown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+					<a aria-expanded="false"
+					   class="nav-link dropdown-toggle text-white text-uppercase d-flex align-items-center"
+					   data-bs-toggle="dropdown" href="#" id="featuresDropDown" role="button">
 						Features
 						<i class="bi bi-plus ms-2 icon-pages"></i> <!-- Plus-icoon -->
 					</a>
-					<ul class="dropdown-menu rounded-0 rounded-bottom" aria-labelledby="featuresDropDown">
+					<ul aria-labelledby="featuresDropDown" class="dropdown-menu rounded-0 rounded-bottom">
 						<li><a class="dropdown-item text-uppercase" href="#">Features</a></li>
 						<li><a class="dropdown-item text-uppercase" href="#">Features</a></li>
 					</ul>
@@ -62,17 +69,17 @@
 					<a class="nav-link text-white text-uppercase" href="#">Contact</a>
 				</li>
 			</ul>
-			<p class="search-icon me-3 text-white m-0" data-bs-toggle="modal" data-bs-target="#searchModal">
+			<p class="search-icon me-3 text-white m-0" data-bs-target="#searchModal" data-bs-toggle="modal">
 				<i class="bi bi-search"></i>
 			</p>
 			
 			
-			<a href="#" class="btn bg-white rounded-0 text-uppercase btn-custom">Try For Free</a>
+			<a class="btn bg-white rounded-0 text-uppercase btn-custom" href="#">Try For Free</a>
 		
 		</div>
 	</div>
 </nav>
-<header id="hero-section" class="d-flex align-items-center justify-content-center">
+<header class="d-flex align-items-center justify-content-center" id="hero-section">
 	<div class="container">
 		<div class="row">
 			<!-- Tekstkolom -->
@@ -81,17 +88,17 @@
 				<p class="heebo">Create stunning app designs with ease and take your startup to the next level!</p>
 				<p class="heebo fs-3">Full Stack Developers Syntra West 2024-2025</p>
 				<div class="d-flex flex-column flex-lg-row justify-content-center justify-content-lg-start">
-					<a href="#" class="btn me-2 mb-2 mb-lg-0">
-						<img src="./images/playstore.png" alt="Google Play">
+					<a class="btn me-2 mb-2 mb-lg-0" href="#">
+						<img alt="Google Play" src="./images/playstore.png">
 					</a>
-					<a href="#" class="btn">
-						<img src="./images/applestore.png" alt="App Store">
+					<a class="btn" href="#">
+						<img alt="App Store" src="./images/applestore.png">
 					</a>
 				</div>
 			</div>
 			<!-- Afbeeldingskolom -->
 			<div class="col-12 col-lg-5 text-center order-0 order-lg-1">
-				<img src="./images/mobile.png" alt="App Preview" class="img-fluid">
+				<img alt="App Preview" class="img-fluid" src="./images/mobile.png">
 			</div>
 		</div>
 	</div>
@@ -101,7 +108,8 @@
 	<div class="row justify-content-center">
 		<div class="col-xl-6 col-lg-8 text-center mb-4">
 			<h2 class="josefin-sans" style="font-size:50px; line-height: 64px;">Apps Features</h2>
-			<p class="text-muted heebo">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+			<p class="text-muted heebo">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+				incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
 		</div>
 	</div>
 	<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
@@ -111,14 +119,15 @@
 				<div class="card-body">
 					<div class="mb-3 d-flex justify-content-between align-items-center">
 						<i class="flaticon-setup display-4 gradient"></i>
-					
-					<p class="fs-7 text-black text-opacity-25 josefin-sans">01</p>
+						
+						<p class="fs-7 text-black text-opacity-25 josefin-sans">01</p>
 					</div>
 					<h5 class="mt-3 josefin-sans fs-8">Social Marketing</h5>
-					<p class="heebo">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim minim veniam.</p>
+					<p class="heebo">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+						incididunt ut labore et dolore magna aliqua. Ut enim minim veniam.</p>
 				</div>
 				<div class="card-footer bg-transparent border-0">
-					<a href="/service-detail" class="text-decoration-none text-primary fs-4">
+					<a class="text-decoration-none text-primary fs-4" href="/service-detail">
 						<i class="flaticon-arrow-pointing-to-right fs-1 gradient"></i>
 					</a>
 				</div>
@@ -134,10 +143,11 @@
 						<p class="fs-7 text-black text-opacity-25 josefin-sans">02</p>
 					</div>
 					<h5 class="mt-3 josefin-sans fs-8">Prepare Daily Report</h5>
-					<p class="heebo">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim minim veniam.</p>
+					<p class="heebo">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+						incididunt ut labore et dolore magna aliqua. Ut enim minim veniam.</p>
 				</div>
 				<div class="card-footer bg-transparent border-0">
-					<a href="/service-detail" class="text-decoration-none text-primary fs-4">
+					<a class="text-decoration-none text-primary fs-4" href="/service-detail">
 						<i class="flaticon-arrow-pointing-to-right fs-1 gradient"></i>
 					</a>
 				</div>
@@ -153,10 +163,11 @@
 						<p class="fs-7 text-black text-opacity-25 josefin-sans">01</p>
 					</div>
 					<h5 class="mt-3 josefin-sans fs-8">Analysis Your Data</h5>
-					<p class="heebo">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim minim veniam.</p>
+					<p class="heebo">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+						incididunt ut labore et dolore magna aliqua. Ut enim minim veniam.</p>
 				</div>
 				<div class="card-footer bg-transparent border-0">
-					<a href="/service-detail" class="text-decoration-none text-primary fs-4">
+					<a class="text-decoration-none text-primary fs-4" href="/service-detail">
 						<i class="flaticon-arrow-pointing-to-right fs-1 gradient"></i>
 					</a>
 				</div>
@@ -165,44 +176,57 @@
 	</div>
 </section>
 <!--Numbers-->
-<section class="container-fluid" style="background:url('./images/bg-numbers.png') no-repeat; background-size:cover;background-position: center;">
+<section class="container-fluid"
+         style="background:url('./images/bg-numbers.png') no-repeat; background-size:cover;background-position: center;">
 	<div class="row">
 		<div class="col-12">
 			<div class="container" style="padding:100px 0px;">
 				<div class="row">
 					<div class="col-lg-3 col-md-6">
 						<div class="text-center">
-							<div class="img-thumbnail rounded-circle position-relative border-5 border-white text-white mx-auto" style="width:200px;height: 200px; background: #F084DC;" >
+							<div class="img-thumbnail rounded-circle position-relative border-5 border-white text-white mx-auto"
+							     style="width:200px;height: 200px; background: #F084DC;">
 								<i class="flaticon-cloud position-absolute top-50 start-50 translate-middle fs-7"></i>
 							</div>
-							<h4 class="josefin-sans m-0" style="weight:700;color: rgb(6, 23, 56);padding-top: 15px;padding-bottom: 20px;">Download</h4>
+							<h4 class="josefin-sans m-0"
+							    style="weight:700;color: rgb(6, 23, 56);padding-top: 15px;padding-bottom: 20px;">
+								Download</h4>
 							<h2 class="heebo fs-7 m-0" style="color:rgb(166,166,166); font-weight:300">9652</h2>
 						</div>
 					</div>
 					<div class="col-lg-3 col-md-6">
 						<div class="text-center">
-							<div class="img-thumbnail rounded-circle position-relative border-5 border-white text-white mx-auto" style="width:200px;height: 200px; background: linear-gradient(#ffaa6a,#fb6f62);" >
+							<div class="img-thumbnail rounded-circle position-relative border-5 border-white text-white mx-auto"
+							     style="width:200px;height: 200px; background: linear-gradient(#ffaa6a,#fb6f62);">
 								<i class="flaticon-pointed-star position-absolute top-50 start-50 translate-middle fs-7"></i>
 							</div>
-							<h4 class="josefin-sans m-0" style="weight:700;color: rgb(6, 23, 56);padding-top: 15px;padding-bottom: 20px;">Download</h4>
+							<h4 class="josefin-sans m-0"
+							    style="weight:700;color: rgb(6, 23, 56);padding-top: 15px;padding-bottom: 20px;">
+								Download</h4>
 							<h2 class="heebo fs-7 m-0" style="color:rgb(166,166,166); font-weight:300">9652</h2>
 						</div>
 					</div>
 					<div class="col-lg-3 col-md-6">
 						<div class="text-center">
-							<div class="img-thumbnail rounded-circle position-relative border-5 border-white text-white mx-auto" style="width:200px;height: 200px; background:#69CCFF;" >
+							<div class="img-thumbnail rounded-circle position-relative border-5 border-white text-white mx-auto"
+							     style="width:200px;height: 200px; background:#69CCFF;">
 								<i class="flaticon-customer-service position-absolute top-50 start-50 translate-middle fs-7"></i>
 							</div>
-							<h4 class="josefin-sans m-0" style="weight:700;color: rgb(6, 23, 56);padding-top: 15px;padding-bottom: 20px;">Download</h4>
+							<h4 class="josefin-sans m-0"
+							    style="weight:700;color: rgb(6, 23, 56);padding-top: 15px;padding-bottom: 20px;">
+								Download</h4>
 							<h2 class="heebo fs-7 m-0" style="color:rgb(166,166,166); font-weight:300">9652</h2>
 						</div>
 					</div>
 					<div class="col-lg-3 col-md-6">
 						<div class="text-center">
-							<div class="img-thumbnail rounded-circle position-relative border-5 border-white text-white mx-auto" style="width:200px;height: 200px; background:#8b68ef;" >
+							<div class="img-thumbnail rounded-circle position-relative border-5 border-white text-white mx-auto"
+							     style="width:200px;height: 200px; background:#8b68ef;">
 								<i class="flaticon-briefing position-absolute top-50 start-50 translate-middle fs-7"></i>
 							</div>
-							<h4 class="josefin-sans m-0" style="weight:700;color: rgb(6, 23, 56);padding-top: 15px;padding-bottom: 20px;">Download</h4>
+							<h4 class="josefin-sans m-0"
+							    style="weight:700;color: rgb(6, 23, 56);padding-top: 15px;padding-bottom: 20px;">
+								Download</h4>
 							<h2 class="heebo fs-7 m-0" style="color:rgb(166,166,166); font-weight:300">9652</h2>
 						</div>
 					</div>
@@ -219,22 +243,29 @@
 				<div class="row align-items-center">
 					<div class="col-lg-5">
 						<div class="text-center text-lg-left">
-							<img class="img-fluid" src="./images/consultingprovider.png" alt="Amazing consulting provider">
+							<img alt="Amazing consulting provider" class="img-fluid"
+							     src="./images/consultingprovider.png">
 						</div>
 					</div>
 					<div class="col-lg-7 mt-5 mt-lg-0 text-center text-lg-start">
 						<div class="padding-end">
-							<h3 class="josefin-sans m-0 text-center text-lg-start" style="padding-bottom:35px; font-size: 40px; line-height: 50px;">Amazing Consulting Provider Agency to Our Best </h3>
-							<p class="heebo text-start" style="line-height:26px;color: #606060;">We work with the public sector to build thriving communities. And we ork with regulators and financial institutions to build trust and integrity in ets uis aliqua sunt nisi consectetur anim.</p>
+							<h3 class="josefin-sans m-0 text-center text-lg-start"
+							    style="padding-bottom:35px; font-size: 40px; line-height: 50px;">Amazing Consulting
+								Provider Agency to Our Best </h3>
+							<p class="heebo text-start" style="line-height:26px;color: #606060;">We work with the public
+								sector to build thriving communities. And we ork with regulators and financial
+								institutions to build trust and integrity in ets uis aliqua sunt nisi consectetur
+								anim.</p>
 							<ul>
 								<li class="d-flex" style="padding-top:25px;">
 									<div class="icon" style="padding-right:25px;">
 										<i class="flaticon-ribbon fs-1 gradient"></i>
 									</div>
 									<div class="text-start">
-										<h6 class="josefin-sans" style="font-size:22px; line-height: 28px;">Pixel Perfect Modern Layout</h6>
+										<h6 class="josefin-sans" style="font-size:22px; line-height: 28px;">Pixel
+											Perfect Modern Layout</h6>
 										<p class="heebo" style="line-height:26px; color: #606060;
-">Medixer Care will be administered through plan-based omizable   incorporate partnership between family.</p>
+">Medixer Care will be administered through plan-based omizable incorporate partnership between family.</p>
 									</div>
 								</li>
 								<li class="d-flex" style="padding-top:25px;">
@@ -242,8 +273,11 @@
 										<i class="flaticon-24-hours fs-1 gradient"></i>
 									</div>
 									<div class="text-start">
-										<h6 class="josefin-sans" style="font-size:22px; line-height: 28px;">24/7 support</h6>
-										<p class="heebo" style="line-height:26px;color: #606060;">Medixer Care will be administered through plan-based omizable   incorporate partnership between family.</p>
+										<h6 class="josefin-sans" style="font-size:22px; line-height: 28px;">24/7
+											support</h6>
+										<p class="heebo" style="line-height:26px;color: #606060;">Medixer Care will be
+											administered through plan-based omizable incorporate partnership between
+											family.</p>
 									</div>
 								</li>
 							</ul>
@@ -262,22 +296,28 @@
 				<div class="row align-items-center">
 					<div class="col-lg-5 order-lg-1">
 						<div class="text-center text-lg-left">
-							<img class="img-fluid" src="./images/businessdata.png" alt="Amazing consulting provider">
+							<img alt="Amazing consulting provider" class="img-fluid" src="./images/businessdata.png">
 						</div>
 					</div>
 					<div class="col-lg-7 mt-5 mt-lg-0 text-center text-lg-start order-lg-0">
 						<div class="padding-end">
-							<h3 class="josefin-sans m-0 text-center text-lg-start" style="padding-bottom:35px; font-size: 40px; line-height: 50px;">Optimize Your Business Data as You Want, Easily! </h3>
-							<p class="heebo text-start" style="line-height:26px;color: #606060;">We work with the public sector to build thriving communities. And we ork with regulators and financial institutions to build trust and integrity in ets uis aliqua sunt nisi consectetur anim.</p>
+							<h3 class="josefin-sans m-0 text-center text-lg-start"
+							    style="padding-bottom:35px; font-size: 40px; line-height: 50px;">Optimize Your Business
+								Data as You Want, Easily! </h3>
+							<p class="heebo text-start" style="line-height:26px;color: #606060;">We work with the public
+								sector to build thriving communities. And we ork with regulators and financial
+								institutions to build trust and integrity in ets uis aliqua sunt nisi consectetur
+								anim.</p>
 							<ul>
 								<li class="d-flex" style="padding-top:25px;">
 									<div class="icon" style="padding-right:25px;">
 										<i class="flaticon-ribbon fs-1 gradient"></i>
 									</div>
 									<div class="text-start">
-										<h6 class="josefin-sans" style="font-size:22px; line-height: 28px;">Fully Responsive Across Devices</h6>
+										<h6 class="josefin-sans" style="font-size:22px; line-height: 28px;">Fully
+											Responsive Across Devices</h6>
 										<p class="heebo" style="line-height:26px; color: #606060;
-">Medixer Care will be administered through plan-based omizable   incorporate partnership between family.</p>
+">Medixer Care will be administered through plan-based omizable incorporate partnership between family.</p>
 									</div>
 								</li>
 								<li class="d-flex" style="padding-top:25px;">
@@ -285,8 +325,11 @@
 										<i class="flaticon-24-hours fs-1 gradient"></i>
 									</div>
 									<div class="text-start">
-										<h6 class="josefin-sans" style="font-size:22px; line-height: 28px;">High Performance Theme</h6>
-										<p class="heebo" style="line-height:26px;color: #606060;">Medixer Care will be administered through plan-based omizable   incorporate partnership between family.</p>
+										<h6 class="josefin-sans" style="font-size:22px; line-height: 28px;">High
+											Performance Theme</h6>
+										<p class="heebo" style="line-height:26px;color: #606060;">Medixer Care will be
+											administered through plan-based omizable incorporate partnership between
+											family.</p>
 									</div>
 								</li>
 							</ul>
@@ -299,76 +342,478 @@
 	</div>
 </section>
 <!--Agency Portfolio-->
-<section class="container">
-	<div class="row justify-content-center">
-		<div class="col-xl-6 col-lg-8 text-center mb-4">
-			<h2 class="josefin-sans" style="font-size:50px; line-height: 64px;">Apps Features</h2>
-			<p class="text-muted heebo">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-		</div>
-	</div>
-	<ul class="nav nav-tabs custom-tabs mb-5 border-0 justify-content-center flex-column flex-lg-row" id="myTab" role="tablist">
-		<li class="nav-item align-self-center" role="presentation">
-			<button class="nav-link active rounded-0" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">All</button>
-		</li>
-		<li class="nav-item align-self-center" role="presentation">
-			<button class="nav-link rounded-0" id="ios-tab" data-bs-toggle="tab" data-bs-target="#ios-tab-pane" type="button" role="tab" aria-controls="ios-tab-pane" aria-selected="false">IOS</button>
-		</li>
-		<li class="nav-item align-self-center" role="presentation">
-			<button class="nav-link rounded-0" id="android-tab" data-bs-toggle="tab" data-bs-target="#android-tab-pane" type="button" role="tab" aria-controls="android-tab-pane" aria-selected="false">Android</button>
-		</li>
-		<li class="nav-item align-self-center" role="presentation">
-			<button class="nav-link rounded-0" id="marketing-tab" data-bs-toggle="tab" data-bs-target="#marketing-tab-pane" type="button" role="tab" aria-controls="marketing-tab-pane" aria-selected="false">Marketing</button>
-		</li>
-		<li class="nav-item align-self-center" role="presentation">
-			<button class="nav-link rounded-0" id="designer-tab" data-bs-toggle="tab" data-bs-target="#designer-tab-pane" type="button" role="tab" aria-controls="designer-tab-pane" aria-selected="false">Designer</button>
-		</li>
-	</ul>
-	<div class="tab-content" id="myTabContent">
-		<div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
-			<div class="row g-3">
-				<div class="col-12 col-lg-3 text-center">
-					<img class="img-fluid" src="./images/gallery.png" alt="gallery">
+<section class="container-fluid" style="background:#f9f8ff; padding-top: 120px;padding-bottom: 90px;">
+	<div class="row">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-xl-6 col-lg-8 text-center mb-4">
+					<h2 class="josefin-sans" style="font-size:50px; line-height: 64px;">Apps Features</h2>
+					<p class="text-muted heebo">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
 				</div>
-				<div class="col-12 col-lg-3 text-center">
-					<img class="img-fluid" src="./images/gallery.png" alt="gallery">
+			</div>
+			<ul class="nav nav-tabs custom-tabs mb-5 border-0 justify-content-center flex-column flex-lg-row" id="myTab"
+			    role="tablist">
+				<li class="nav-item align-self-center" role="presentation">
+					<button aria-controls="home-tab-pane" aria-selected="true" class="nav-link active rounded-0"
+					        data-bs-target="#home-tab-pane" data-bs-toggle="tab" id="home-tab" role="tab"
+					        type="button">All
+					</button>
+				</li>
+				<li class="nav-item align-self-center" role="presentation">
+					<button aria-controls="ios-tab-pane" aria-selected="false" class="nav-link rounded-0"
+					        data-bs-target="#ios-tab-pane"
+					        data-bs-toggle="tab" id="ios-tab" role="tab" type="button">IOS
+					</button>
+				</li>
+				<li class="nav-item align-self-center" role="presentation">
+					<button aria-controls="android-tab-pane" aria-selected="false" class="nav-link rounded-0"
+					        data-bs-target="#android-tab-pane" data-bs-toggle="tab" id="android-tab" role="tab"
+					        type="button">Android
+					</button>
+				</li>
+				<li class="nav-item align-self-center" role="presentation">
+					<button aria-controls="marketing-tab-pane" aria-selected="false" class="nav-link rounded-0"
+					        data-bs-target="#marketing-tab-pane" data-bs-toggle="tab" id="marketing-tab"
+					        role="tab" type="button">Marketing
+					</button>
+				</li>
+				<li class="nav-item align-self-center" role="presentation">
+					<button aria-controls="designer-tab-pane" aria-selected="false" class="nav-link rounded-0"
+					        data-bs-target="#designer-tab-pane" data-bs-toggle="tab" id="designer-tab"
+					        role="tab" type="button">Designer
+					</button>
+				</li>
+			</ul>
+			<div class="tab-content" id="myTabContent">
+				<div aria-labelledby="home-tab" class="tab-pane fade show active" id="home-tab-pane" role="tabpanel"
+				     tabindex="0">
+					<div class="row g-3">
+						<div class="col-12 col-lg-3 text-center">
+							<img alt="gallery" class="img-fluid" src="./images/gallery.png">
+						</div>
+						<div class="col-12 col-lg-3 text-center">
+							<img alt="gallery" class="img-fluid" src="./images/gallery.png">
+						</div>
+						<div class="col-12 col-lg-3 text-center">
+							<img alt="gallery" class="img-fluid" src="./images/gallery1.png">
+						</div>
+						<div class="col-12 col-lg-3 text-center">
+							<img alt="gallery" class="img-fluid" src="./images/gallery.png">
+						</div>
+						<div class="col-12 col-lg-3">
+							<img alt="gallery" class="img-fluid" src="./images/gallery.png">
+						</div>
+						<div class="col-12 col-lg-3">
+							<img alt="gallery" class="img-fluid" src="./images/gallery.png">
+						</div>
+						<div class="col-12 col-lg-3">
+							<img alt="gallery" class="img-fluid" src="./images/gallery.png">
+						</div>
+						<div class="col-12 col-lg-3">
+							<img alt="gallery" class="img-fluid" src="./images/gallery.png">
+						</div>
+					</div>
 				</div>
-				<div class="col-12 col-lg-3 text-center">
-					<img class="img-fluid" src="./images/gallery1.png" alt="gallery">
+				<div aria-labelledby="ios-tab" class="tab-pane fade" id="ios-tab-pane" role="tabpanel" tabindex="0">
+					<div class="row g-3">
+						<div class="col-12 col-lg-3 text-center">
+							<img alt="gallery" class="img-fluid" src="./images/gallery.png">
+						</div>
+						<div class="col-12 col-lg-3 text-center">
+							<img alt="gallery" class="img-fluid" src="./images/gallery.png">
+						</div>
+						<div class="col-12 col-lg-3 text-center">
+							<img alt="gallery" class="img-fluid" src="./images/gallery1.png">
+						</div>
+						<div class="col-12 col-lg-3 text-center">
+							<img alt="gallery" class="img-fluid" src="./images/gallery.png">
+						</div>
+						<div class="col-12 col-lg-3">
+							<img alt="gallery" class="img-fluid" src="./images/gallery.png">
+						</div>
+						<div class="col-12 col-lg-3">
+							<img alt="gallery" class="img-fluid" src="./images/gallery.png">
+						</div>
+						<div class="col-12 col-lg-3">
+							<img alt="gallery" class="img-fluid" src="./images/gallery.png">
+						</div>
+						<div class="col-12 col-lg-3">
+							<img alt="gallery" class="img-fluid" src="./images/gallery.png">
+						</div>
+					</div>
 				</div>
-				<div class="col-12 col-lg-3 text-center">
-					<img class="img-fluid" src="./images/gallery.png" alt="gallery">
+				<div aria-labelledby="contact-tab" class="tab-pane fade" id="android-tab-pane" role="tabpanel"
+				     tabindex="0">
+					<div class="row g-3">
+						<div class="col-12 col-lg-3 text-center">
+							<img alt="gallery" class="img-fluid" src="./images/gallery.png">
+						</div>
+						<div class="col-12 col-lg-3 text-center">
+							<img alt="gallery" class="img-fluid" src="./images/gallery.png">
+						</div>
+						<div class="col-12 col-lg-3 text-center">
+							<img alt="gallery" class="img-fluid" src="./images/gallery1.png">
+						</div>
+						<div class="col-12 col-lg-3 text-center">
+							<img alt="gallery" class="img-fluid" src="./images/gallery.png">
+						</div>
+						<div class="col-12 col-lg-3">
+							<img alt="gallery" class="img-fluid" src="./images/gallery.png">
+						</div>
+						<div class="col-12 col-lg-3">
+							<img alt="gallery" class="img-fluid" src="./images/gallery.png">
+						</div>
+						<div class="col-12 col-lg-3">
+							<img alt="gallery" class="img-fluid" src="./images/gallery.png">
+						</div>
+						<div class="col-12 col-lg-3">
+							<img alt="gallery" class="img-fluid" src="./images/gallery.png">
+						</div>
+					</div>
 				</div>
-				<div class="col-12 col-lg-3">
-					<img class="img-fluid" src="./images/gallery.png" alt="gallery">
+				<div aria-labelledby="contact-tab" class="tab-pane fade" id="marketing-tab-pane" role="tabpanel"
+				     tabindex="0">
+					<div class="row g-3">
+						<div class="col-12 col-lg-3 text-center">
+							<img alt="gallery" class="img-fluid" src="./images/gallery.png">
+						</div>
+						<div class="col-12 col-lg-3 text-center">
+							<img alt="gallery" class="img-fluid" src="./images/gallery.png">
+						</div>
+						<div class="col-12 col-lg-3 text-center">
+							<img alt="gallery" class="img-fluid" src="./images/gallery1.png">
+						</div>
+						<div class="col-12 col-lg-3 text-center">
+							<img alt="gallery" class="img-fluid" src="./images/gallery.png">
+						</div>
+						<div class="col-12 col-lg-3">
+							<img alt="gallery" class="img-fluid" src="./images/gallery.png">
+						</div>
+						<div class="col-12 col-lg-3">
+							<img alt="gallery" class="img-fluid" src="./images/gallery.png">
+						</div>
+						<div class="col-12 col-lg-3">
+							<img alt="gallery" class="img-fluid" src="./images/gallery.png">
+						</div>
+						<div class="col-12 col-lg-3">
+							<img alt="gallery" class="img-fluid" src="./images/gallery.png">
+						</div>
+					</div>
 				</div>
-				<div class="col-12 col-lg-3">
-					<img class="img-fluid" src="./images/gallery.png" alt="gallery">
-				</div>
-				<div class="col-12 col-lg-3">
-					<img class="img-fluid" src="./images/gallery.png" alt="gallery">
-				</div>
-				<div class="col-12 col-lg-3">
-					<img class="img-fluid" src="./images/gallery.png" alt="gallery">
+				<div aria-labelledby="contact-tab" class="tab-pane fade" id="designer-tab-pane" role="tabpanel"
+				     tabindex="0">
+					<div class="row g-3">
+						<div class="col-12 col-lg-3 text-center">
+							<img alt="gallery" class="img-fluid" src="./images/gallery.png">
+						</div>
+						<div class="col-12 col-lg-3 text-center">
+							<img alt="gallery" class="img-fluid" src="./images/gallery.png">
+						</div>
+						<div class="col-12 col-lg-3 text-center">
+							<img alt="gallery" class="img-fluid" src="./images/gallery1.png">
+						</div>
+						<div class="col-12 col-lg-3 text-center">
+							<img alt="gallery" class="img-fluid" src="./images/gallery.png">
+						</div>
+						<div class="col-12 col-lg-3">
+							<img alt="gallery" class="img-fluid" src="./images/gallery.png">
+						</div>
+						<div class="col-12 col-lg-3">
+							<img alt="gallery" class="img-fluid" src="./images/gallery.png">
+						</div>
+						<div class="col-12 col-lg-3">
+							<img alt="gallery" class="img-fluid" src="./images/gallery.png">
+						</div>
+						<div class="col-12 col-lg-3">
+							<img alt="gallery" class="img-fluid" src="./images/gallery.png">
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
-		<div class="tab-pane fade" id="ios-tab-pane" role="tabpanel" aria-labelledby="ios-tab" tabindex="0">...</div>
-		<div class="tab-pane fade" id="android-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">...</div>
-		<div class="tab-pane fade" id="marketing-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">...</div>
-		<div class="tab-pane fade" id="desginer-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">...</div>
+	</div>
+
+
+</section>
+<!--Professional Team-->
+<section class="my-6">
+	<div class="container">
+		<div class="row">
+			<div class="row justify-content-center">
+				<div class="col-xl-6 col-lg-8 text-center mb-4">
+					<h2 class="josefin-sans" style="font-size:50px; line-height: 64px;">Professional Team</h2>
+					<p class="text-muted heebo">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+				</div>
+			</div>
+			<div class="col-lg-12">
+				<div class="row justify-content-center">
+					<div class="col-lg-4 col-md-6">
+						<div class="text-center shadow-sm p-3 mb-5 rounded bg-white">
+							<div style="padding:20px;">
+								<img alt="Team" class="w-100" src="./images/Team1.png">
+							</div>
+							
+							<h3 class="josefin-sans fs-3" style="color:#212529">Sarrison Samuel</h3>
+							
+							<p class="heebo" style="color:#606060;">Marketing Officer</p>
+							<ul class="d-flex justify-content-center list-unstyled gap-2">
+								<li class="rounded-circle d-flex justify-content-center align-items-center"
+								    style="width: 40px; height: 40px; background: #f3f3f3">
+									<a href="#" style="line-height:40px;"><i class="bi bi-facebook"
+									                                         style="color:#fb6d62;"></i></a></li>
+								
+								<li class="rounded-circle d-flex justify-content-center align-items-center"
+								    style="width: 40px; height: 40px; background: #f3f3f3">
+									<a href="#" style="line-height:40px;"><i class="bi bi-twitter"
+									                                         style="color:#fb6d62;"></i></a></li>
+								<li class="rounded-circle d-flex justify-content-center align-items-center"
+								    style="width: 40px; height: 40px; background: #f3f3f3">
+									<a href="#" style="line-height:40px;"><i class="bi bi-instagram"
+									                                         style="color:#fb6d62;"></i></a></li>
+								<li class="rounded-circle d-flex justify-content-center align-items-center"
+								    style="width: 40px; height: 40px; background: #f3f3f3">
+									<a href="#" style="line-height:40px;"><i class="bi bi-linkedin"
+									                                         style="color:#fb6d62;"></i></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="text-center shadow-sm p-3 mb-5 rounded bg-white">
+							<div style="padding:20px;">
+								<img alt="Team" class="w-100" src="./images/Team2.png">
+							</div>
+							
+							<h3 class="josefin-sans fs-3" style="color:#212529">Warrison Samuel</h3>
+							
+							<p class="heebo" style="color:#606060;">CEO & Founder</p>
+							<ul class="d-flex justify-content-center list-unstyled gap-2">
+								<li class="rounded-circle d-flex justify-content-center align-items-center"
+								    style="width: 40px; height: 40px; background: #f3f3f3">
+									<a href="#" style="line-height:40px;"><i class="bi bi-facebook"
+									                                         style="color:#fb6d62;"></i></a></li>
+								
+								<li class="rounded-circle d-flex justify-content-center align-items-center"
+								    style="width: 40px; height: 40px; background: #f3f3f3">
+									<a href="#" style="line-height:40px;"><i class="bi bi-twitter"
+									                                         style="color:#fb6d62;"></i></a></li>
+								<li class="rounded-circle d-flex justify-content-center align-items-center"
+								    style="width: 40px; height: 40px; background: #f3f3f3">
+									<a href="#" style="line-height:40px;"><i class="bi bi-instagram"
+									                                         style="color:#fb6d62;"></i></a></li>
+								<li class="rounded-circle d-flex justify-content-center align-items-center"
+								    style="width: 40px; height: 40px; background: #f3f3f3">
+									<a href="#" style="line-height:40px;"><i class="bi bi-linkedin"
+									                                         style="color:#fb6d62;"></i></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="text-center shadow-sm p-3 mb-5 rounded bg-white">
+							<div style="padding:20px;">
+								<img alt="Team" class="w-100" src="./images/Team3.png">
+							</div>
+							
+							<h3 class="josefin-sans fs-3" style="color:#212529">Harrison Samuel</h3>
+							
+							<p class="heebo" style="color:#606060;">Support member</p>
+							<ul class="d-flex justify-content-center list-unstyled gap-2">
+								<li class="rounded-circle d-flex justify-content-center align-items-center"
+								    style="width: 40px; height: 40px; background: #f3f3f3">
+									<a href="#" style="line-height:40px;"><i class="bi bi-facebook"
+									                                         style="color:#fb6d62;"></i></a></li>
+								
+								<li class="rounded-circle d-flex justify-content-center align-items-center"
+								    style="width: 40px; height: 40px; background: #f3f3f3">
+									<a href="#" style="line-height:40px;"><i class="bi bi-twitter"
+									                                         style="color:#fb6d62;"></i></a></li>
+								<li class="rounded-circle d-flex justify-content-center align-items-center"
+								    style="width: 40px; height: 40px; background: #f3f3f3">
+									<a href="#" style="line-height:40px;"><i class="bi bi-instagram"
+									                                         style="color:#fb6d62;"></i></a></li>
+								<li class="rounded-circle d-flex justify-content-center align-items-center"
+								    style="width: 40px; height: 40px; background: #f3f3f3">
+									<a href="#" style="line-height:40px;"><i class="bi bi-linkedin"
+									                                         style="color:#fb6d62;"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
 </section>
+<!--Mobile Area-->
+<section class="my-6 position-relative">
+	<div class="container rounded rounded-5" style="background: linear-gradient(#fb6f62,#ffaa6a);">
+		<div class="row" style="padding-top:50px;">
+			<div class="col-12 col-lg-5 text-center">
+				<img alt="mobiel area" class="img-fluid" src="./images/mobilearea.png">
+			</div>
+			<div class="col-12 col-lg-7 align-items-center flex-column">
+				<h3 class="josefin-sans m-0 text-center text-lg-start text-white pt-5 pt-lg-0 px-5 px-lg-0"
+				    style="padding-bottom:35px; font-size: 40px; line-height: 50px;">Optimize Your Business Data as You
+					Want, Easily! </h3>
+				<p class="heebo text-start text-white px-5 px-lg-0 pb-2 pb-lg-0" style="line-height:26px;">We work with
+					the public sector to build thriving communities. And we ork with regulators and financial
+					institutions to build trust and integrity in ets uis aliqua sunt nisi consectetur anim.</p>
+				<div class="d-flex flex-lg-row justify-content-center justify-content-lg-start  pb-5 pb-lg-0">
+					<a class="btn me-2 mb-2 mb-lg-0 p-0" href="#">
+						<img alt="Google Play" src="./images/playstore.png">
+					</a>
+					<a class="btn me-2 mb-2 mb-lg-0 p-0" href="#">
+						<img alt="App Store" src="./images/applestore.png">
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!--working video-->
+<section class="home1 video"
+         style="background: url(&quot;./images/videobackground.png&quot;) center center / cover no-repeat;">
+	<div class="overlay">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="content text-center">
+						<a class="vid-icon" data-bs-target="#videoModal" data-bs-toggle="modal">
+							<div class="pulse-container">
+								<div class="icon-circle">
+									<i class="bi bi-play-fill"></i> <!-- Bootstrap Icon -->
+								</div>
+							</div>
+						</a>
+						<p class="heebo  fs-3 pt-5 text-white">Working Video</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!--Customers Love Team-->
+<section class="my-6">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-xl-6 col-lg-8 text-center mb-4">
+				<h2 class="josefin-sans" style="font-size:50px; line-height: 64px;">Customers Love</h2>
+				<p class="text-muted heebo">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+					et dolore magna aliqua. Ut enim ad minim veniam.
+				</p>
+			</div>
+		</div>
+		<div class="row align-items-center" style="min-height: 400px;">
+			<div class="carousel slide" data-bs-ride="carousel" id="testimonialCarousel">
+				<!-- Carousel Indicators -->
+				<div class="carousel-indicators">
+					<button aria-current="true" aria-label="Slide 1" class="active" data-bs-slide-to="0"
+					        data-bs-target="#testimonialCarousel" type="button"></button>
+					<button aria-label="Slide 2" data-bs-slide-to="1" data-bs-target="#testimonialCarousel"
+					        type="button"></button>
+					<button aria-label="Slide 3" data-bs-slide-to="2" data-bs-target="#testimonialCarousel"
+					        type="button"></button>
+				</div>
+				
+				<!-- Carousel Items -->
+				<div class="carousel-inner">
+					<!-- Slide 1 -->
+					<div class="carousel-item active">
+						<div class="row align-items-center position-relative" style="min-height: 400px;">
+							<!-- Image Column -->
+							<div class="col-12 col-lg-6">
+								<div class="position-absolute top-50
+								z-0" id="shape"></div>
+								<img alt="team1"
+								     class="img-fluid rounded-circle position-absolute z-1" src="./images/Team1.png"
+								     style="height:300px; width: 300px;">
+							</div>
+							<!-- Text Column -->
+							<div class="col-12 col-lg-6">
+								<p class="text-muted">
+									Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+									doloremque laudantium, totam rem aperiam.
+								</p>
+								<h5 class="fw-bold">Sophia Johnson</h5>
+								<p class="text-muted">Designer</p>
+							</div>
+						</div>
+					</div>
+					
+					<!-- Slide 2 -->
+					<!--					<div class="carousel-item">-->
+					<!--						<div class="row align-items-center">-->
+					<!--							<div class="col-12 col-lg-6 position-relative d-flex justify-content-center align-items-center">-->
+					<!--								<div id="shape" class="position-absolute"></div>-->
+					<!--								<img class="img-fluid rounded-circle" style="height:300px; width: 300px;" src="./images/Team2.png" alt="team2">-->
+					<!--							</div>-->
+					<!--							<div class="col-12 col-lg-6">-->
+					<!--								<p class="text-muted">-->
+					<!--									At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti.-->
+					<!--								</p>-->
+					<!--								<h5 class="fw-bold">Michael Brown</h5>-->
+					<!--								<p class="text-muted">Manager</p>-->
+					<!--							</div>-->
+					<!--						</div>-->
+					<!--					</div>-->
+					<!--					-->
+					<!--					&lt;!&ndash; Slide 3 &ndash;&gt;-->
+					<!--					<div class="carousel-item">-->
+					<!--						<div class="row align-items-center">-->
+					<!--							<div class="col-12 col-lg-6 position-relative d-flex justify-content-center align-items-center">-->
+					<!--								<div id="shape" class="position-absolute"></div>-->
+					<!--								<img class="img-fluid rounded-circle" style="height:300px; width: 300px;" src="./images/Team3.png" alt="team3">-->
+					<!--							</div>-->
+					<!--							<div class="col-12 col-lg-6">-->
+					<!--								<p class="text-muted">-->
+					<!--									Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.-->
+					<!--								</p>-->
+					<!--								<h5 class="fw-bold">Emily Davis</h5>-->
+					<!--								<p class="text-muted">Developer</p>-->
+					<!--							</div>-->
+					<!--						</div>-->
+					<!--					</div>-->
+				</div>
+			
+			
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+<!--video modal-->
+<div aria-hidden="true" aria-labelledby="videoModalLabel" class="modal fade" id="videoModal" tabindex="-1">
+	<div class="modal-dialog modal-dialog-centered modal-lg"> <!-- Toegevoegd: modal-lg -->
+		<div class="modal-content">
+			<div class="modal-body p-0">
+				<div class="ratio ratio-16x9">
+					<iframe id="videoFrame"
+					        src="https://www.youtube.com/embed/LCmsrVOXzZc?autoplay=1" <!-- Autoplay toegevoegd -->
+					title="YouTube video player"
+					frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+					allowfullscreen>
+					</iframe>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
 <!-- Search Modal -->
-<div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="searchModalLabel" aria-hidden="true">
+<div aria-hidden="true" aria-labelledby="searchModalLabel" class="modal fade" id="searchModal" tabindex="-1">
 	<div class="modal-dialog modal-dialog-centered">
 		<div class="modal-content">
 			<div class="modal-header border-0">
 				<h5 class="modal-title" id="searchModalLabel">Search</h5>
-				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				<button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button"></button>
 			</div>
 			<div class="modal-body">
 				<form>
-					<input type="text" class="form-control form-control-lg" placeholder="Search..." autofocus>
+					<input autofocus class="form-control form-control-lg" placeholder="Search..." type="text">
 				</form>
 			</div>
 		</div>
@@ -440,8 +885,6 @@
 	// 		}
 	// 	});
 	// });
-	
-
 
 
 </script>
@@ -454,5 +897,12 @@
 		'wrapAround': true
 	})
 </script>
+
+
+
 </body>
 </html>
+
+
+
+

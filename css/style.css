@@ -119,7 +119,126 @@
 .custom-tabs .nav-link:not(.active) {
     margin-right: 15px;
 }
+/*VIDEO SECTION*/
+.home1.video {
+    margin-top:-220px;
+    background: url("../images/videobackground.png") center center / cover no-repeat;
+    background-attachment: fixed !important; /* Zorgt voor het parallax-effect */
+}
+.overlay{
+    background: rgba(0, 0, 0, 0.77);
+    padding-top: 320px;
+    padding-bottom: 120px;
+}
+/*pulse animatie op de icon video knop*/
+/* Container voor de pulserende animatie */
+.pulse-container {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px; /* Totale breedte inclusief ringen */
+    height: 70px;
+}
 
+/* Ronde achtergrond voor het icoon */
+.icon-circle {
+    width: 50px;
+    height: 50px;
+    background-color: white; /* Witte achtergrond */
+    border-radius: 50%; /* Maakt de cirkel */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2; /* Boven de ringen */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Subtiele schaduw */
+}
+
+/* Het icoon zelf */
+.icon-circle i {
+    font-size: 24px; /* Grootte van het icoon */
+    color: #ff6f61; /* Kleur van het icoon */
+}
+.pulse-container {
+    cursor: pointer; /* Maakt het duidelijk dat het klikbaar is */
+}
+
+.icon-circle {
+    cursor: pointer; /* Extra zekerheid voor het icoon zelf */
+}
+/* Eerste ring */
+.pulse-container::before {
+    content: "";
+    position: absolute;
+    width: 70px; /* Beginformaat ring */
+    height: 70px;
+    border: 2px solid rgba(255, 111, 97, 0.6); /* Eerste ring kleur */
+    border-radius: 50%;
+    animation: pulse 2s infinite;
+    z-index: 1;
+}
+
+/* Tweede ring */
+.pulse-container::after {
+    content: "";
+    position: absolute;
+    width: 90px; /* Beginformaat tweede ring */
+    height: 90px;
+    border: 2px solid rgba(255, 111, 97, 0.4); /* Tweede ring kleur */
+    border-radius: 50%;
+    animation: pulse 2s infinite 0.5s; /* Uitgesteld starten */
+    z-index: 0;
+}
+
+/* Puls-animatie */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1.4); /* Vergroot tot 1.4x */
+        opacity: 0; /* Verdwijnt volledig */
+    }
+}
+/*SECTION CUSTOMERS LOVE*/
+#shape {
+    height: 280px;
+    width: 280px;
+    background: #ffeae9;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg) !important;
+    -moz-transform: rotate(45deg) !important;
+    -ms-transform: rotate(45deg) !important;
+    -o-transform: rotate(45deg) !important;
+
+}
+/* Algemene stijl voor carousel-indicators */
+.carousel-indicators [data-bs-target] {
+    width: 20px; /* Breedte van de rechthoek */
+    height: 20px; /* Hoogte van de rechthoek */
+    background-color: rgba(255, 99, 71, 0.3); /* Lichte kleur met transparantie */
+    border: none; /* Geen rand */
+    margin: 0 5px; /* Ruimte tussen de rechthoeken */
+    transition: background-color 0.3s ease, opacity 0.3s ease; /* Soepel hover/actief effect */
+}
+
+/* Actieve indicator */
+.carousel-indicators .active {
+    background-color: rgba(255, 99, 71, 1); /* Heldere kleur voor de actieve rechthoek */
+    opacity: 1; /* Volledige zichtbaarheid */
+}
+
+/* Hover effect */
+.carousel-indicators [data-bs-target]:hover {
+    background-color: rgba(255, 99, 71, 0.6); /* Iets helderder bij hover */
+    opacity: 0.9;
+}
 
 /* Modal search */
 .modal-content {
@@ -136,6 +255,12 @@
     border-bottom: none;
 }
 
+
+@media (max-width: 768px) {
+    .home1.video {
+        background-attachment: scroll; /* Schakel parallax uit op mobiele apparaten */
+    }
+}
 
 /* Vanaf lg-schermen (Bootstrap-breakpoint)*/
 @media (min-width: 992px) {
